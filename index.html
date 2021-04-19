@@ -98,7 +98,13 @@
                                     <div class="input-group mb-3">
                                         <input type="password" class="form-control form-control-lg" placeholder="Confirm Password">
                                     </div>
-                                    <input type="submit" value="Submit" class="btn btn-outline-light btn-block">
+                                    <!-- 
+                                        to make a button with full like btn-block
+                                        need to use a div with d-grid around that button 
+                                    -->
+                                    <div class="d-grid">
+                                        <input type="submit" value="Submit" class="btn btn-outline-light">
+                                    </div>
                                 </form>
                             </div>
                         </div>
@@ -121,10 +127,10 @@
 
 
     <!-- Custom JQuery -->
-    <script>
+    <!-- <script>
         // Get the current year for the copyright
-        $('#year').text(new Date().getFullYear()); 
+        // $('#year').text(new Date().getFullYear()); 
 
-    </script>
+    </script> -->
 </body>
 </html>
