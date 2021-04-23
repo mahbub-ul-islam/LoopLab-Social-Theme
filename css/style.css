@@ -25,3 +25,11 @@ body {
     min-height: 700px;
     background: rgba(0, 0, 0, 0.7)
 }
+
+#home-section .home-inner {
+    padding-top: 150px;
+}
+
+#home-section .card-form {
+    opacity: 0.8;
+}
