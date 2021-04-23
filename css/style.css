@@ -9,6 +9,7 @@ body {
     opacity: 0.8;
 }
 
+/* home Section */
 #home-section {
     background: url(../img/home.jpg);
     background-repeat: no-repeat;
@@ -43,4 +44,13 @@ body {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+}
+
+
+/* Explore Section */
+#explore-section .fas {
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
 }
