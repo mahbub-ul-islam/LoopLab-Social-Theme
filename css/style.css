@@ -2,6 +2,7 @@
 body {
     background: #333;
     color: #fff;
+    position: relative;
 }
 
 .navbar {
@@ -24,7 +25,7 @@ body {
     left: 0;
     width: 100%;
     min-height: 700px;
-    background: rgba(0, 0, 0, 0.7)
+    background: rgba(0, 0, 0, 0.3)
 }
 
 #home-section .home-inner {
@@ -35,7 +36,8 @@ body {
     opacity: 0.8;
 }
 
-#home-section .fas {
+#home-section .fas,
+#create-section .fas{
     color: #008ed6;
     background: #fff;
     padding: 5px;
@@ -48,9 +50,12 @@ body {
 
 
 /* Explore Section */
-#explore-section .fas {
+#explore-section .fas,
+#shere-section .fas {
     background: #333;
     color: #fff;
     padding: 5px;
     border-radius: 5px;
 }
+
+
